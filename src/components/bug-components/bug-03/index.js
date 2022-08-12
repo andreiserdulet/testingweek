@@ -1,10 +1,8 @@
 import * as React from 'react';
 import './index.css';
 import { titleBug03, descriptionBug03, listObj } from "../../../data/data";
-import Tilt from 'react-tilt';
 export function Bug03() {
     return (
-        <Tilt options={{ max: 10, scale: 1, speed: 200 }}>
             <div className='bug03__container'>
                 <h2>
                     { titleBug03 }
@@ -37,6 +35,5 @@ export function Bug03() {
                 </ul>
                 <marquee>You should check also the confluence page for more info: <a target="_blank" href='https://icanhazdadjoke.com/'>Confluence Page</a></marquee>
             </div>
-        </Tilt>
     )
 }
