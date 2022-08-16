@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/testingweek/static/css/main.9af11c44.css",
+    "main.js": "/testingweek/static/js/main.e15f1c6d.js",
+    "static/js/787.a5b74fd2.chunk.js": "/testingweek/static/js/787.a5b74fd2.chunk.js",
+    "static/media/monkey.png": "/testingweek/static/media/monkey.83ab485ae872c1b9d7fe.png",
+    "static/media/highfive.gif": "/testingweek/static/media/highfive.bd24e74459fb9225faf2.gif",
+    "static/media/jest-logo.png": "/testingweek/static/media/jest-logo.95bffbbd80a3ba10dfa4.png",
+    "static/media/giggle.png": "/testingweek/static/media/giggle.f17148917b49ae148348.png",
+    "static/media/sun.gif": "/testingweek/static/media/sun.5b8a314601094d3334e5.gif",
+    "static/media/selenium-logo.png": "/testingweek/static/media/selenium-logo.1ecba0ff6f923fe40169.png",
+    "static/media/cucumber.png": "/testingweek/static/media/cucumber.ef2a4f56ac41d83998f8.png",
+    "static/media/endava-logo.png": "/testingweek/static/media/endava-logo.67d455c587df9b5e2732.png",
+    "static/media/postman-logo.png": "/testingweek/static/media/postman-logo.8c0fbb1b2165be0b1dee.png",
+    "static/media/jira.png": "/testingweek/static/media/jira.c46ec06a7a51d2b2eb1c.png",
+    "static/media/person07.jpg": "/testingweek/static/media/person07.d569ea02d0f287ca3b69.jpg",
+    "static/media/person02.jpg": "/testingweek/static/media/person02.1eba8e3cf4f97bd4ba63.jpg",
+    "static/media/cypress.png": "/testingweek/static/media/cypress.b5cb01ca2412d6a2ecd0.png",
+    "static/media/person05.jpg": "/testingweek/static/media/person05.43c964fb0ddd29f6bbcc.jpg",
+    "static/media/person06.jpg": "/testingweek/static/media/person06.829baed1002d384e8997.jpg",
+    "static/media/person03.jpg": "/testingweek/static/media/person03.0248ca6e8a9e5fa37720.jpg",
+    "index.html": "/testingweek/index.html",
+    "main.9af11c44.css.map": "/testingweek/static/css/main.9af11c44.css.map",
+    "main.e15f1c6d.js.map": "/testingweek/static/js/main.e15f1c6d.js.map",
+    "787.a5b74fd2.chunk.js.map": "/testingweek/static/js/787.a5b74fd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9af11c44.css",
+    "static/js/main.e15f1c6d.js"
+  ]
+}
