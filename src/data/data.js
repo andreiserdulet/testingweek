@@ -1,7 +1,6 @@
 import person01 from '../assets/person01.jpg';
 import person02 from '../assets/person02.jpg';
 import person03 from '../assets/person03.jpg';
-//there's no person04 - Buzz Lightyear was dropped
 import person05 from '../assets/person05.jpg';
 import person06 from '../assets/person06.jpg';
 
@@ -14,37 +13,37 @@ import person11 from '../assets/person11.jpg';
 export const swiperObj = [
     {
         id: 1,
-        name: 'Dora Popa',
+        name: 'Ana Nitescu',
         jobTitle: 'Discipline Lead',
-        description: 'I love testing',
-        img: person01
+        description: '',
+        img: person06
     },
     {
         id: 2,
         name: 'Dorin Ruscea',
         jobTitle: 'Test Management Community Lead',
-        description: 'I love testing more than the guy in the left',
+        description: '',
         img: person02
     },
     {
         id: 3,
-        name: 'Ana Nitescu',
+        name: 'Dora Popa',
         jobTitle: 'Discipline Lead',
-        description: 'Testing is awesome',
-        img: person06,
+        description: '',
+        img: person01,
     },
     {
         id: 4,
         name: 'Gabriel Dima ',
         jobTitle: 'Test Automation - Community Lead',
-        description: 'Testing is awesome',
+        description: '',
         img: person08,
     },
     {
         id: 5,
         name: 'Alexandra Foltica',
         jobTitle: 'Stand In - Test Management',
-        description: 'Testing is awesome',
+        description: '',
         img: person03,
     },
 
@@ -52,7 +51,7 @@ export const swiperObj = [
         id: 6,
         name: 'Andrei Zamfir',
         jobTitle: 'Test Management- Core Team',
-        description: 'Testing is awesome',
+        description: '',
         img: person05,
     },
     {

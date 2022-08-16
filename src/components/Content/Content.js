@@ -5,6 +5,7 @@ import cypress from '../../assets/cypress.png'
 import postmanLogo from '../../assets/postman-logo.png';
 import jestLogo from '../../assets/jest-logo.png';
 import jira from '../../assets/jira.png';
+import karma from '../../assets/karma.png';
 import { motion} from "framer-motion";
 import './index.css';
 
@@ -14,13 +15,12 @@ export default function Content({ children}) {
         <div className='content'>
             <div className='content--images-left'>
                     <motion.img
-                        src={cucumber}
+                        src={selenium}
                         alt='selenium'
                         className={'one'}/>
                     <motion.img
-                        src={selenium}
-                        alt='selenium'
-                        drag
+                        src={karma}
+                        alt='karma'
                         className={'two'}/>
                     <motion.img
                         src={cypress}
@@ -54,10 +54,7 @@ export default function Content({ children}) {
                     src={cucumber}
                     alt='cucumber'
                     className={'seven'}/>
-                <motion.img
-                    src={cucumber}
-                    alt='cucumber'
-                    className={'eight'}/>
+                <h2 className='eight'>Fast Framework</h2>
             </div>
         </div>
     )

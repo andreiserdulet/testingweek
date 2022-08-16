@@ -50,7 +50,7 @@
 .modal__container .modal__container-body .modal__container-form input,
 .modal__container .modal__container-body .modal__container-form label,
 .modal__container .modal__container-body .modal__container-form textarea {
-    padding: 0;
+    padding: 4px;
     width: 100%;
 }
 

@@ -1,9 +1,11 @@
 import * as React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
+import "swiper/css/pagination";
 import './index.css';
 import SwiperCard from "../../Swiper-Card/SwiperCard";
 import { swiperObj } from "../../../data/data";
+import { Pagination } from "swiper";
 import person11 from '../../../assets/person11.jpg';
 
 export function Bug04() {
@@ -26,14 +28,11 @@ export function Bug04() {
     console.log('Nice try seems like you are a professional');
     return (
         <>
-            <h2 style={{textAlign:'center', paddingTop:'24px'}}>Members of the community</h2>
+            <h2 style={{textAlign:'center', paddingTop:'24px'}}>Testing Week Organizers</h2>
             <Swiper
                 breakpoints={{
                     200: {
                         slidesPerView: 1,
-                    },
-                    768: {
-                        slidesPerView: 2
                     },
                     1050: {
                         slidesPerView: 3

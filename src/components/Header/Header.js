@@ -16,13 +16,8 @@ export default function Header({ children }) {
             </div>
 
             <div className='header--title'>
-                <input defaultValue='Testing Week - Bug Hunt!' onSelect={
-                    (event) => {
-                        event.preventDefault()
-                        document.getElementById('testing').innerText = 'A selection bug!!!'
-                    }
-                }/>
-                <p id='testing'></p>
+                <input defaultValue='Testing Week - Bug Hunt!'
+                       disabled={true}/>
             </div>
             <div className='header--timer'>
                 {children}
