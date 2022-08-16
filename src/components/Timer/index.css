@@ -57,6 +57,21 @@
 }
 @media (max-width: 600px) {
     .timer{
-        display: none;
+        position: absolute;
+        right: 0;
+        top: 100px;
+    }
+    .timer__container {
+        gap: 0;
+
+    }
+    .timer__container-countdown {
+        padding: 4px;
+    }
+    .timer__container-countdown p,
+    .timer__container-countdown span{
+        padding: 0;
+        font-size: 18px;
+        line-height: 140%;
     }
 }

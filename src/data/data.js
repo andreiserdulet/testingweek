@@ -1,35 +1,90 @@
-import person01 from '../assets/person-1.png';
-import person02 from '../assets/person-2.png';
-import person03 from '../assets/person-3.png';
+import person01 from '../assets/person01.jpg';
+import person02 from '../assets/person02.jpg';
+import person03 from '../assets/person03.jpg';
+//there's no person04 - Buzz Lightyear was dropped
+import person05 from '../assets/person05.jpg';
+import person06 from '../assets/person06.jpg';
+
+import person07 from '../assets/person07.jpg';
+import person08 from '../assets/person08.jpg'
+import person09 from '../assets/person09.jpg';
+import person10 from '../assets/person10.jpg';
+import person11 from '../assets/person11.jpg';
+
 export const swiperObj = [
     {
         id: 1,
-        name: 'Andrei Serdulet',
-        jobTitle: 'Developer',
+        name: 'Dora Popa',
+        jobTitle: 'Discipline Lead',
         description: 'I love testing',
         img: person01
     },
     {
         id: 2,
-        name: 'Sorin Rabbit Blaga',
-        jobTitle: 'Developer',
+        name: 'Dorin Ruscea',
+        jobTitle: 'Test Management Community Lead',
         description: 'I love testing more than the guy in the left',
         img: person02
     },
     {
         id: 3,
-        name: 'Andrei Rovena',
-        jobTitle: 'Senior Tester',
+        name: 'Ana Nitescu',
+        jobTitle: 'Discipline Lead',
         description: 'Testing is awesome',
-        img: person03,
+        img: person06,
     },
     {
         id: 4,
-        name: 'EREH GUB',
-        jobTitle: 'Definetly not a tester',
-        description: `Read my name in reverse`,
-        img: 'image'
+        name: 'Gabriel Dima ',
+        jobTitle: 'Test Automation - Community Lead',
+        description: 'Testing is awesome',
+        img: person08,
     },
+    {
+        id: 5,
+        name: 'Alexandra Foltica',
+        jobTitle: 'Stand In - Test Management',
+        description: 'Testing is awesome',
+        img: person03,
+    },
+
+    {
+        id: 6,
+        name: 'Andrei Zamfir',
+        jobTitle: 'Test Management- Core Team',
+        description: 'Testing is awesome',
+        img: person05,
+    },
+    {
+        id: 7,
+        name: 'Valentin Sirbu',
+        jobTitle: 'Test Management – Core Team',
+        description: '',
+        img: person07,
+    },
+    {
+        id: 8,
+        name: 'Andrei Serdulet',
+        jobTitle: 'Developer-owner of Bug Hunting app',
+        description: 'Good luck finding all the ... bugs',
+        img: person10,
+    },
+    {
+        id: 9,
+        name: 'Andreea Epure',
+        jobTitle: 'Test Management – Core Team',
+        description: '',
+        img: person09,
+    },
+
+    {
+        id: 10,
+        name: 'Alexandru Tomescu',
+        jobTitle: 'Test Management- Core Team',
+        description: '',
+        img: person11,
+    },
+
 ]
 
 

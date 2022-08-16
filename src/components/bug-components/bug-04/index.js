@@ -4,7 +4,7 @@ import 'swiper/css';
 import './index.css';
 import SwiperCard from "../../Swiper-Card/SwiperCard";
 import { swiperObj } from "../../../data/data";
-import person04 from '../../../assets/person-4.png';
+import person11 from '../../../assets/person11.jpg';
 
 export function Bug04() {
 
@@ -13,10 +13,10 @@ export function Bug04() {
         let interval = setInterval(()=>{
             return swiperObj.push({
                 id:Math.random(),
-                name: 'Buzz Lightyear',
-                jobTitle: 'Toy Story',
+                name: 'Alexandru Tomescu',
+                jobTitle: 'Test Management- Core Team',
                 description: 'To infinity and beyond',
-                img: person04
+                img: person11
             })
         }, isActive ? 1000 : 500);
 
@@ -28,7 +28,18 @@ export function Bug04() {
         <>
             <h2 style={{textAlign:'center', paddingTop:'24px'}}>Members of the community</h2>
             <Swiper
-                spaceBetween={50}
+                breakpoints={{
+                    200: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2
+                    },
+                    1050: {
+                        slidesPerView: 3
+                    }
+                }}
+                spaceBetween={30}
                 slidesPerView={3}
                 onSlideChange={()=> {
                     setIsActive(!isActive);

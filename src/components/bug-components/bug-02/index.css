@@ -14,3 +14,8 @@
     color: cornflowerblue;
     cursor: pointer;
 }
+@media (max-width: 600px) {
+    .bug02__container {
+        padding: 54px 24px 24px;
+    }
+}
